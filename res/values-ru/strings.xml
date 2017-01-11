@@ -546,4 +546,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Воспр. или остановить музыку</string>
   <string name="touchscreen_gesture_action_previous_track">Перейти к предыдущему треку</string>
   <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
+  <string name="pixel_navbar_anim_title">Pixel анимация панели навигации</string>
+  <string name="pixel_navbar_anim_summary">Включить анимацию кнопки "Домой" на панели навигации</string>
 </resources>

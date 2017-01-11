@@ -622,5 +622,6 @@
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Enables the pixel navbar animation (restart required)</string>
+    <string name="pixel_navbar_anim_summary">Enables the pixel navbar animation</string>
+
 </resources>
