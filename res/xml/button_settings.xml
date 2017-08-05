@@ -18,12 +18,6 @@
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
-    <cyanogenmod.preference.CMSystemSettingSwitchPreference
-        android:key="anbi"
-        android:title="@string/anbi_title"
-        android:summary="@string/anbi_summary"
-        android:persistent="false" />
-
     <SwitchPreference
         android:key="disable_nav_keys"
         android:title="@string/disable_navkeys_title"
@@ -86,6 +80,21 @@
             android:title="@string/navigation_bar_recents_title"
             android:persistent="false" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lr_keys"
+        android:title="@string/lr_keys_title">
+
+    <cyanogenmod.preference.SystemSettingSwitchPreference
+        android:key="anbi_enabled"
+        android:title="@string/anbi_title"
+        android:summary="@string/anbi_summary" />
+
+    <cyanogenmod.preference.SystemSettingSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_title"
+        android:summary="@string/pocket_judge_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory
